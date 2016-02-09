@@ -27,7 +27,7 @@ width: 75%;
 
 body {
 	background-color: #ffffff;
-	background-image: url(http://new.karen.hh.se/files/2015/11/vichy.png);
+	background-image: url(http://www.karen.hh.se/files/2015/11/vichy.png);
 	background-attachment:fixed;
 	font-family: 'FreeUniversalRegular', sans-serif;
 	font-size: 1em;
@@ -75,7 +75,7 @@ font-size:1.2em;
 }
 
 #inner-header {
-/*	background: url(http://new.karen.hh.se/files/2015/10/header2.png);*/
+/*	background: url(http://www.karen.hh.se/files/2015/10/header2.png);*/
 	background: url(http://www.karen.hh.se/files/2015/11/header.png);
 	overflow: hidden;
 }
@@ -182,7 +182,7 @@ Footer
 	padding: 0;
 	text-shadow: none;
 	background: #636363;
-/*background: url(http://new.karen.hh.se/files/2015/11/footer.png);*/
+/*background: url(http://www.karen.hh.se/files/2015/11/footer.png);*/
 }
 
 footer[role=contentinfo] {
@@ -267,7 +267,7 @@ Slideshow
 }
 
 .slides .slide-content {
-	background: url(http://new.karen.hh.se/files/2015/10/trans_copy.png);
+	background: url(http://www.karen.hh.se/files/2015/10/trans_copy.png);
 }
 .slides .slide-title {
 	font-family: "FreeUniversalRegular", sans-serif;
@@ -557,7 +557,7 @@ Styling of pages, posts and categories
 
 article[id*=post-].hentry,
 article[id*=post-].single-pad {
-	background-image: url(http://new.karen.hh.se/files/2015/10/half_logo_trans.png);
+	background-image: url(http://www.karen.hh.se/files/2015/10/half_logo_trans.png);
 	background-position: 100% 28px;
 	background-repeat: no-repeat;
 }
