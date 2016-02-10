@@ -618,6 +618,8 @@ Ombudssidan
 .presentation { 
 	width:23%;
 	float:right;
+	min-width: 220px;
+/*	margin-left: 10px;*/
 }
 
 
@@ -1027,6 +1029,16 @@ URL: http://stuffandnonsense.co.uk/projects/320andup/
                 margin:0;
         }
 
+	
+        .presentation {
+                width: 100%;
+        }
+
+        .rattighet {
+                width:100%;
+        }
+
+
 
 }
 
@@ -1035,7 +1047,10 @@ URL: http://stuffandnonsense.co.uk/projects/320andup/
 	div.menu > ul { 
 		display:block !important;
 	}
+
 }
+
+
 
 @media only screen and (max-width: 770px) {
 	
@@ -1053,7 +1068,15 @@ URL: http://stuffandnonsense.co.uk/projects/320andup/
 
 	#main .news {
 	width: 100%;
-}
+	}
+	
+        .presentation {
+                width: 95%;
+        }
+
+        .rattighet {
+                width:95%;
+        }
 
 }
 
@@ -1088,6 +1111,17 @@ URL: http://stuffandnonsense.co.uk/projects/320andup/
 	#respond input[type=text] {
 		width: 75%;
 	}
+	
+	
+        .presentation {
+                width: 95%;
+        }
+
+        .rattighet {
+                width:95%;
+        }
+
+
 }
 
 @media only screen and (max-width: 586px) {
@@ -1104,6 +1138,17 @@ URL: http://stuffandnonsense.co.uk/projects/320andup/
 	.sponsors {
 		width: 100%;
 	}
+
+
+        .presentation {
+                width: 100%;
+        }
+
+        .rattighet {
+                width:100%;
+        }
+
+
 }
 
 @media only screen and (max-width: 496px) {
@@ -1124,13 +1169,49 @@ URL: http://stuffandnonsense.co.uk/projects/320andup/
 	#respond input[type=text] {
 		width: 100%;
 	}
+        article[id*=post-]{
+                padding:0.5em;
+        }
+
+        #main {
+                padding-left:0px;
+                padding-right:0px;
+        }
+
+        .presentation {
+                width: 100%;
+        }
+
+        .rattighet {
+                width:100%;
+        }
+
+
 }
 
 @media only screen and (max-width: 346px) {
 	
+	article[id*=post-]{
+		padding:0.5em;
+	}
+
+	#main {
+		padding-left:0px;
+		padding-right:0px;
+	}
+
+	.presentation {
+		width: 100%;
+	}
+
+	.rattighet {
+		width:100%;
+	}
+
 	article[id*=post-].post-box {
-		width: 85%;
-		margin-right: 0;
+		width: 100%;
+		margin-right: auto;
+		margin-left:auto;
 	}
 	
 	#search-box  #s {
