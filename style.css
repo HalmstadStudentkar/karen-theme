@@ -296,6 +296,18 @@ article[id*=post-].post-box .entry-content {
 	font-size: 0.9em; /*Formattering i boxarna på Nyhetssidan*/
 }
 
+.pagination {
+	font-family:"FreeUniversalRegular", sans-serif;
+}
+
+.pagination .current {
+background-color: #825E9E;
+}
+
+.pagination a:hover {
+	background-color:#e58e19;
+}
+
 article[id*=post-] {
 	padding:2.2em;
 }
