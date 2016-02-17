@@ -311,9 +311,6 @@ article[id*=post-].post-box .entry-content {
 	background-color:#e58e19;
 }
 
-article[id*=post-] {
-	padding:2.2em;
-}
 
 /***************
 Main widget area
@@ -548,6 +545,9 @@ Styling of pages, posts and categories
 **************************************/
 
 
+article[id*=post-] {
+        padding:2.2em;
+}
 
 article[id*=post-].hentry,
 article[id*=post-].single-pad {
