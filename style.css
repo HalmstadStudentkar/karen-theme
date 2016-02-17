@@ -182,7 +182,6 @@ Footer
 	padding: 0;
 	text-shadow: none;
 	background: #636363;
-/*background: url(http://www.karen.hh.se/files/2015/11/footer.png);*/
 }
 
 footer[role=contentinfo] {
@@ -281,6 +280,10 @@ Slideshow
 
 }
 
+/*********************
+Nyhetssidan
+*********************/
+
 #content .go-button a, a:visited { /*Formattering för de små boxarna med pilar på nyhetssidan*/
 background-color: #e58e19;
 	color: #191919;
@@ -301,7 +304,7 @@ article[id*=post-].post-box .entry-content {
 }
 
 .pagination .current {
-background-color: #825E9E;
+	background-color: #825E9E;
 }
 
 .pagination a:hover {
@@ -311,6 +314,10 @@ background-color: #825E9E;
 article[id*=post-] {
 	padding:2.2em;
 }
+
+/***************
+Main widget area
+***************/
 
 #main {
 	padding-right: 20px;
@@ -322,10 +329,6 @@ article[id*=post-] {
 	height:auto;
 	min-height: 200px;
 }
-
-/***************
-Main widget area
-***************/
 
 #main .main-widget {
 	float: left;
@@ -341,7 +344,6 @@ Main widget area
 /*	margin-right: 1%;*/
 	margin-left: 1%;
 	margin-top: 20px;
-/*	overflow: hidden;*/
 }
 
 .widget-box img {
@@ -497,9 +499,6 @@ Newsbox
 #main .news {
 	margin-top: 20px;
 	margin-left: 1%;
-/*	border-bottom: solid 2px #E58E19; 
-	border-right:solid 2px #E58E19;
-	border-left:solid 2px #E58E19;*/
 	display: block;
 	width:95%;
 	position: relative;
@@ -574,7 +573,7 @@ For the contact page
 .contact-widget {
 	width:25%;
 	border-left: 2px solid #191919;
-float:left;
+	float:left;
 }
 
 .contact {
