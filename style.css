@@ -315,6 +315,22 @@ article[id*=post-].post-box .entry-content {
 	background-color:#e58e19;
 }
 
+/********************
+Kalender
+********************/
+
+.timely a,
+.timely a:link,
+.timely a:visited,
+.timely a:active,
+.timely a:hover,
+#ai1ec-container a,
+#ai1ec-container a:link,
+#ai1ec-container a:visited,
+#ai1ec-container a:active,
+#ai1ec-container a:hover {
+	color: #333;
+}
 
 /***************
 Main widget area
