@@ -307,6 +307,10 @@ article[id*=post-].post-box .entry-content {
 	background-color: #825E9E;
 }
 
+.pagination span {
+	color: #e58e19;
+}
+
 .pagination a:hover {
 	background-color:#e58e19;
 }
