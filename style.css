@@ -556,6 +556,14 @@ Newsbox
 	overflow: hidden;
 }
 
+/**********
+404-page
+**********/
+.404-info img {
+	margin-left:auto;
+	margin-right:auto;
+}
+
 /*************************************
 Styling of pages, posts and categories
 **************************************/
