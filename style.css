@@ -354,11 +354,17 @@ Main widget area
 }
 
 .widget-box {
-	width: 300px;
-	height: 300px;
+	width: 200px;
+	height: 200px;
 	float: left;
-	margin-left: 5%;
+	margin-left: 1%;
 	margin-top: 20px;
+	overflow: hidden;
+}
+
+.widget-box img {
+	width: 200px;
+	height: 200px;
 }
 
 /****************
@@ -663,15 +669,15 @@ URL: http://stuffandnonsense.co.uk/projects/320andup/
 		width:67%;
 	}
 	#main .widget-box {
-		margin-left: 0;
-		margin-right: 1%;
-		width: 300px;
-		height: 300px;
+		margin-left: 3%;
+		margin-right: 3%;
+		width: 250px;
+		height: 250px;
 	}
 
 	#main .widget-box img {
-		width: 300px;
-		height: 300px;
+		width: 250px;
+		height: 250px;
 	}	
 
 	.sponsors {
@@ -922,14 +928,18 @@ URL: http://stuffandnonsense.co.uk/projects/320andup/
 		display: block;
 	}
 
-        #main .main-widget {
-        width:100%;
+        #main .widget-box {
+                width: 300px;
+                height: 300px;
+                margin-right:3%;
+                margin-left: 3%;
         }
 
-        #main .widget-box {
-                margin-left: 0;
-                margin-right: 1%;
+        #main .widget-box img {
+                width:300px;
+                height:300px;
         }
+
         .news {
                 margin-left: 0;
                 clear: both;
@@ -1075,8 +1085,8 @@ URL: http://stuffandnonsense.co.uk/projects/320andup/
         #main .widget-box {
 		width: 300px;
 		height: 300px;
-		margin-right:1%;
-		margin-left: 0;
+		margin-right:3%;
+		margin-left: 3%;
 	}
 
 	#main .widget-box img {
@@ -1118,6 +1128,20 @@ URL: http://stuffandnonsense.co.uk/projects/320andup/
 
 @media only screen and (max-width: 624px) {
 	
+        #main .widget-box {
+                width: 200px;
+                height: 200px;
+                margin-right:3%;
+                margin-left: 3%;
+        }
+
+        #main .widget-box img {
+                width:200px;
+                height:200px;
+        }
+
+
+
 	article[id*=post-].post-box {
 		width: 42.2%;
 	}
@@ -1170,6 +1194,19 @@ URL: http://stuffandnonsense.co.uk/projects/320andup/
 }
 
 @media only screen and (max-width: 496px) {
+
+        #main .widget-box {
+                width: 300px;
+                height: 300px;
+                margin-right: 0;
+                margin-left: 10%;
+        }
+
+        #main .widget-box img {
+                width:300px;
+                height:300px;
+        }
+
 	
 	article[id*=post-].post-box {
 		width: 40%;
@@ -1206,6 +1243,22 @@ URL: http://stuffandnonsense.co.uk/projects/320andup/
 
 
 }
+
+@media only screen and (max-width: 370px) {
+        #main .widget-box {
+                width: 300px;
+                height: 300px;
+                margin-right:0;
+                margin-left: 3%;
+        }
+
+        #main .widget-box img {
+                width:300px;
+                height:300px;
+        }
+
+}
+
 
 @media only screen and (max-width: 346px) {
 	
