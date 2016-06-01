@@ -6,14 +6,14 @@ Author: Ellen Arvidsson m.fl.
 Version: 1.0
 Description: Child theme based on Magazino adjusted for use as the main page for Halmstad Student Union.
 License: GNU General Public License v2.0
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Tags: custom-menu, sticky-post, microformats, rtl-language-support, translation-ready, full-width-template, post-formats
 */
 
 /*******
 Typsnitt
 *******/
-@import url(http://fonts.googleapis.com/css?family=Judson:400,700);
+@import url(https://fonts.googleapis.com/css?family=Judson:400,700);
 @import url(http://openfontlibrary.org/face/freeuniversal);
 
 
@@ -27,7 +27,7 @@ width: 75%;
 
 body {
 	background-color: #ffffff;
-	background-image: url(http://www.karen.hh.se/files/2015/11/vichy.png);
+	background-image: url(https://www.karen.hh.se/files/2015/11/vichy.png);
 	background-attachment:fixed;
 	font-family: 'FreeUniversalRegular', sans-serif;
 	font-size: 1em;
@@ -75,7 +75,7 @@ font-size:1.2em;
 }
 
 #inner-header {
-	background: url(http://www.karen.hh.se/files/2015/11/header.png);
+	background: url(https://www.karen.hh.se/files/2015/11/header.png);
 	overflow: hidden;
 }
 
@@ -265,7 +265,7 @@ Slideshow
 }
 
 .slides .slide-content {
-	background: url(http://www.karen.hh.se/files/2015/10/trans_copy.png);
+	background: url(https://www.karen.hh.se/files/2015/10/trans_copy.png);
 }
 .slides .slide-title {
 	font-family: "FreeUniversalRegular", sans-serif;
@@ -581,7 +581,7 @@ article[id*=post-] {
 
 article[id*=post-].hentry,
 article[id*=post-].single-pad {
-	background-image: url(http://www.karen.hh.se/files/2015/10/half_logo_trans.png);
+	background-image: url(https://www.karen.hh.se/files/2015/10/half_logo_trans.png);
 	background-position: 100% 28px;
 	background-repeat: no-repeat;
 }
